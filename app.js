@@ -1,5 +1,5 @@
 const express = require('express')
-const {addDays} = require('date-fns')
+const addDays = require('date-fns/addDays')
 const app = express()
 app.get('/', (request, response) => {
   const todayDate = new Date()
